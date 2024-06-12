@@ -1,0 +1,12 @@
+{
+    "name": "ethangrant/module-mage-relay",
+    "description": "Mage Relay",
+    "type":"magento2-module",
+    "version": "0.1.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Ethangrant\\MageRelay\\": ""
+        }
+    }
+}
